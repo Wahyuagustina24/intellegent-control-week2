@@ -1,0 +1,35 @@
+Nama: Wahyu Agustina
+NIM: 224308046
+Kelas: TKA-6B
+
+ANALISIS DAN DISKUSI WEEK 2
+"Object Classification with Scikit-learn"
+
+Analisis Hasil:
+1. Bagaimana performa model dalam mendeteksi warna?
+   - Model Machine Learning (ML) dapat digunakan untuk identifikasi warna pada citra digital. Dimana terdapat poin pada ouput yang dihasilkan yaitu akurasi. Tingkat akurasi identifikasi warna bisa mencapai sekitar 86.8%, performa model sangat bergantung pada kualitas dataset, resolusi kamera, kualitas lensa, dan pencahayaan. Algoritma K-Nearest Neighbor (KNN) dapat digunakan dalam klasifikasi warna dengan tingkat akurasi yang tinggi, lebih dari 90%. Dalam kode yang diberikan, akurasi model awal dicetak tetapi akurasi real-time tidak dihitung dengan benar. Untuk mengukur performa secara akurat, perlu menghitung akurasi real-time terlebih dahulu.
+
+2. Bagaimana perbedaan akurasi jika jumlah dataset ditambah? 
+   - Penambahan jumlah dataset pada Model Machine Learning dapat meningkatkan tingkat akurasi model, terutama jika dataset yang ditambahkan mencakup variasi warna yang lebih luas dan representative, serta dapat mengklasifikasi data dan meningkatkan kemampuan dalam mendeteksi suatu objek. Namun, penambahan dataset yang tidak relevan dapat menurunkan akurasi.
+
+3. Bagaimana cara meningkatkan kinerja model klasifikasi?
+   - Cara meningkatkan kinerja model klasifikasi antara lain dengan:
+     1). Mengoptimasi model yang ingin digunakan dengan menggunakan model klasifikasi lain, seperti Support Vector Machine (SVM) dan lainnya.
+     2). Meningkatkan kualitas data sehingga dataset yang digunakan memiliki jumlah sample yang cukup.
+     3). Memilih fitur yang lebih relevan dengan model yang ingin dibuat.
+
+Diskusi:
+1. Apa keuntungan Machine Learning dibandingkan metode berbasis aturan (rule-based)?
+   - Keuntungan dari Machine Learning dibandingkan metode berbasis aturan (rule-based) adalah: 
+     1). Machine Learning dapat belajar dari data dan beradaptasi dengan perubahan, sedangkan metode berbasis aturan bersifat statis dan memerlukan pembaruan manual jika terjadi perubahan.
+     2). ML dapat secara otomatis belajar pola dan hubungan dari data, bahkan data yang sangat kompleks. Metode berbasis aturan, di sisi lain, memerlukan definisi aturan yang eksplisit oleh manusia, yang bisa menjadi sulit atau tidak mungkin untuk data yang kompleks.      
+     3). Machine learning dapat menemukan pola yang tersembunyi dalam data yang berguna dalam analisis data besar dan penemuan pengetahuan, sedangkan metode berbasis aturan hanya dapat menemukan pola yang telah ditentukan.
+
+2. Bagaimana ML dapat diintegrasikan lebih lanjut dalam sistem kendali?
+   - Machine Learning (ML) dapat diintegrasikan lebih lanjut dalam sistem kendali (control systems) untuk meningkatkan kinerja, mengoptimalkan parameter ontrol, adaptabilitas, memprediksi kegagalan sistem, dan efisiensi. Machine learning dapat digunakan untuk mengembangkan sistem kontrol adaptif yang dapat menyesuaikan diri dengan perubahan lingkungan. Contohnya ML dapat digunakan untuk sistem kendali pada kendaraan otonom.
+
+3. Apa saja tantangan dalam penerapan ML dalam sistem real-time?
+   - Penerapan Machine Learning (ML) dalam sistem real-time memiliki tantangan antara lain:
+     1). Algoritma ML, terutama deep learning, sering kali membutuhkan daya komputasi tinggi yang sulit diterapkan dalam sistem real-time dengan keterbatasan hardware.
+     2). Sistem real-time sering menghadapi perubahan lingkungan yang dapat menyebabkan model ML menjadi kurang efektif seiring waktu.
+     3). Model ML membutuhkan data yang cukup dan berkualitas untuk dilatih. Dalam sistem real-time, data harus tersedia secara terus-menerus dan diproses dengan cepat. 
